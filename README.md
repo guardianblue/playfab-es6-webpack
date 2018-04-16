@@ -29,6 +29,8 @@ The project uses YAML format for configuration by default, but you can change it
 
 Change `config/development.yaml` to include your PlayFab App ID and Secret key.
 
+**IMPORTANT** Since the Secret key is meant to be keep secret, make sure not to push to a public repository. You can instead create `development-local.yaml` and add it to `.gitignore`.
+
 ## Building and Publishing
 
 ```bash
