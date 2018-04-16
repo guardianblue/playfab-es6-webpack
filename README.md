@@ -27,6 +27,8 @@ You can simply define settings for multiple PlayFab projects using the usual `de
 
 The project uses YAML format for configuration by default, but you can change it to whatever suits the task.
 
+Change `config/development.yaml` to include your PlayFab App ID and Secret key.
+
 ## Building and Publishing
 
 ```bash
