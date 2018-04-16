@@ -1,0 +1,96 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "currentPlayerId": true,
+    "handlers": true,
+    "http": true,
+    "server": true,
+    "log": true
+  },
+  "rules": {
+    "no-throw-literal": "off",
+    "brace-style": "error",
+    "comma-spacing": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "eqeqeq": "error",
+    "func-call-spacing": "error",
+    "indent": [
+      "error",
+      2,
+      {
+        "MemberExpression": 1,
+        "SwitchCase": 1,
+        "VariableDeclarator": {
+          "var": 2,
+          "let": 2,
+          "const": 3
+        }
+      }
+    ],
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "no-array-constructor": "error",
+    "no-extra-parens": "error",
+    "no-extra-semi": "error",
+    "no-multi-spaces": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "none"
+      }
+    ],
+    "no-useless-escape": "off",
+    "no-whitespace-before-property": "error",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "object-shorthand": [
+      "error",
+      "methods"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": "error",
+    "space-before-blocks": "error",
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ],
+    "space-in-parens": "error",
+    "space-infix-ops": "error",
+    "no-console": "off",
+    "max-nested-callbacks": [
+      1,
+      3
+    ],
+    "max-len": [
+      1,
+      200,
+      2
+    ],
+    "max-params": [
+      1,
+      4
+    ],
+    "max-statements": [
+      1,
+      60
+    ],
+    "no-underscore-dangle": 0,
+    "quotes": [
+      "error",
+      "single"
+    ]
+  }
+}

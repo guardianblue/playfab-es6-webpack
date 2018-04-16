@@ -1,0 +1,13 @@
+build/
+dist/
+
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+.vscode/
+
+node_modules/
+npm-debug.log
+
+config/local*.json
