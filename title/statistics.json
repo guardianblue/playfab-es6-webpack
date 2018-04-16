@@ -1,0 +1,17 @@
+[
+  {
+    "StatisticName": "HighScore",
+    "VersionChangeInterval": "Never",
+    "AggregationMethod": "Max"
+  },
+  {
+    "StatisticName": "WeeklyHighScore",
+    "VersionChangeInterval": "Week",
+    "AggregationMethod": "Max"
+  },
+  {
+    "StatisticName": "PlayCount",
+    "VersionChangeInterval": "Never",
+    "AggregationMethod": "Sum"
+  }
+]

@@ -1,0 +1,5 @@
+# Change this to your PRODUCTION PlayFab environment",
+titleId: "ABCD"
+
+# Change this to your PRODUCTION developer key (PlayFab > Settings > Secret Keys)
+developKey: ""

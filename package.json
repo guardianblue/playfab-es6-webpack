@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "node tools/build --skip-deploy",
-    "deploy": "node tools/build",
-    "sync": "node tools/title-sync",
+    "deploy": "node tools/build --skip-publish",
+    "publish": "node tools/build",
+    "sync": "node tools/sync",
     "test": "eslint . || exit 0",
     "lintfix": "eslint --fix . || exit 0"
   },
@@ -30,6 +31,7 @@
     "chalk": "^2.3.2",
     "config": "^1.30.0",
     "fs-extra-promise": "^1.0.1",
+    "js-yaml": "^3.11.0",
     "minimist": "^1.2.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",

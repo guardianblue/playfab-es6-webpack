@@ -1,0 +1,30 @@
+{
+  "CatalogVersion": "Items",
+  "Catalog": [
+    {
+      "ItemId": "bomb",
+      "ItemClass": null,
+      "CatalogVersion": "Items",
+      "DisplayName": "Bomb",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": "{\"type\":\"active\"}",
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    }
+  ]
+}

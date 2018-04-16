@@ -104,7 +104,7 @@ function updateStatistics(payload) {
       }
     })
     .then(() => {
-      return Promise.map(payload, (payloadItem) => {
+      return Promise.mapSeries(payload, (payloadItem) => {
         let apiEndPoint = stats[payloadItem.StatisticName] !== undefined ? 'UpdatePlayerStatisticDefinition' : 'CreatePlayerStatisticDefinition';
         return sendAdminRequest(apiEndPoint, payloadItem);
       });

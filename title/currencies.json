@@ -1,0 +1,16 @@
+[
+  {
+    "CurrencyCode": "LR",
+    "DisplayName": "Life",
+    "InitialDeposit": 5,
+    "RechargeRate": 720,
+    "RechargeMax": 5
+  },
+  {
+    "CurrencyCode": "CR",
+    "DisplayName": "Coin",
+    "InitialDeposit": 0,
+    "RechargeRate": 0,
+    "RechargeMax": 0
+  }
+]

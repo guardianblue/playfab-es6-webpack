@@ -12,7 +12,8 @@ const webpackConfig = require('./webpack.config.js');
 
 const argv = require('minimist')(process.argv.slice(2));
 
-let shouldDeploy = !argv['skip-deploy'];
+let shouldDeploy = !argv['skip-deploy'],
+    shouldPublish = !argv['skip-publish'];
 
 let rootDir = path.resolve(__dirname, '..'),
     outputDir = path.join(rootDir, 'dist'),
@@ -66,7 +67,7 @@ function deployScriptAsync(content) {
           'FileContents': content,
         },
       ],
-      'Publish': true,
+      'Publish': shouldPublish,
     },
     json: true,
   };
